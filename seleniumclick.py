@@ -1,14 +1,14 @@
-# import webdriver
+# Импортируем вебдрайв
 from selenium import webdriver
   
-# create webdriver object
+# Создаем браузер
 driver = webdriver.Firefox()
   
-# get geeksforgeeks.org
-driver.get("https://www.geeksforgeeks.org/")
+# Получить ссылку на олх
+driver.get("https://www.olx.kz/")
   
-# get element 
-element = driver.find_element_by_link_text("Courses")
+# Получить элемент 
+element = driver.find_element_by_link_text("Одежда")
   
-# click the element
+# Клик по элементу
 element.click()
